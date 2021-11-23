@@ -1,0 +1,153 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
+
+.catalog__container {
+    margin: 0 auto;
+    max-width: 1400px;
+    padding: 0 310px;
+}
+
+.category-cards {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    margin: 0;
+    margin-top: 50px;
+    padding: 0;
+}
+
+.category-card {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    min-height: 270px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+
+.category-card:nth-child(6n+1) {
+    margin-left: -200px;
+}
+
+.category-card:nth-child(6n+6) {
+    margin-right: -150px;
+}
+.category-card:nth-child(1n+4) {
+    margin-top: 3px;
+}
+
+.category-card-link {
+    position: absolute;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+}
+
+.category-card-title {
+    display: block;
+    margin: auto;
+    font-family: 'Montserrat', 'Arial', 'sans-serif';
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 32px;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    color: #FFFFFF;
+    width: 192px;
+}
+.category-card:hover .category-card-title {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.category-card:nth-child(1) {
+    width: 280px;
+    background-color: #DBE4DB;
+    background-image: url(/images/apparel-kids.png);
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.category-card:nth-child(2) {
+    width: 280px;
+    background-color: #EADDD3;
+    background-image: url(/images/holiday-shop.png);
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    background-position: center center
+}
+
+.category-card:nth-child(3) {
+    width: 280px;
+    background-color: #F8F2DA;;
+    background-image: url(/images/toys.png);
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    background-position: center center
+}
+
+.category-card:nth-child(4) {
+    width: 280px;
+    background-color: #D5D4E1;
+    background-image: url(/images/accessories.png);
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    background-position: center center
+}
+
+.category-card:nth-child(5) {
+    width: 280px;
+    background-color: #F3D0DB;
+    background-image: url(/images/pink-flamingo.png);
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    background-position: center center
+}
+
+.category-card:nth-child(6) {
+    width: 280px;
+    background-color: #E5EAF8;
+    background-image: url(/images/pink-shirt.png);
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    background-position: center center
+}
+
+.product__description {
+    margin-bottom: 55px;
+}
+
+.product__description-title {
+    margin: 0;
+    margin-top: 35px;
+    padding-bottom: 10px;
+    font-family: 'Montserrat', 'Arial', 'sans-serif';
+    font-weight: bold;
+    font-size: 38px;
+    line-height: 46px;
+    text-transform: uppercase;
+    color: #1E0606;
+}
+
+.product__description-text {
+    margin: 0;
+    margin-top: 17px;
+    padding-right: 100px;
+    color: #1E0606;
+}
